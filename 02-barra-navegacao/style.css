@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+}
+
+header{
+  background-color: #F41510;
+  height: 100px;
+}
+
+nav ul{
+  list-style: none;
+}
+
+nav li{
+  display: inline-block;
+  margin-right: 50px;
+  vertical-align: middle;
+}
+
+a{
+  color: #FFF;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #333;
+}
+
+.icon img{
+  display: inline-block;
+  width: 20px;
+  vertical-align: center;
+}
