@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+article{
+  display: block;
+  margin: 0 auto;
+  max-width: 320px;
+  max-height: 550px;
+}
+
+article > img{
+  width: 250px;
+  border-radius: 16px;
+  border: 1px solid transparent;
+  margin: 40px auto 20px;
+}
+
+h2{
+  font-size: 0.875rem;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+.preco{
+  margin-left: 10px;
+  font-weight: bold;
+  color: #EE4D2D;
+}
+
+p{
+  margin-top: 20px;
+  font-weight: 400;
+}
+
+hr{
+  border: none;
+  border-top: 1px dashed #C9C9C9;
+  margin: 20px 0 10px;
+}
+
+section img{
+  width: 20px;
+  height: 20px;
+}
+
+.desconto{
+  color: #55AF59;
+  font-weight: bold;
+}
