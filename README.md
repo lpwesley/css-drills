@@ -1,85 +1,47 @@
-
 # CSS Drills
 
-Repositório dedicado à prática de **HTML5 e CSS3**, desenvolvido como parte da minha jornada de aprendizado em Desenvolvimento Front-end e das atividades propostas na **mentoria Tips Code**.
+![Desafios de mentoria](https://img.shields.io/badge/🧩_Desafios-Mentoria_Tips_Code-f59e0b?style=for-the-badge)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-O objetivo é consolidar conhecimentos por meio da construção de componentes e interfaces web, desenvolvendo habilidades de estruturação, estilização, organização de código e resolução de problemas.
+> **🧩 Desafios de mentoria:** exercícios propostos na **mentoria Tips Code**, com o mentor Alisson. O desafio é dado pela mentoria; a solução, o código e as decisões de layout são meus.
 
-Cada exercício representa uma etapa do aprendizado, permitindo acompanhar minha evolução na implementação de layouts e na aplicação dos conceitos estudados.
+Repositório de treino em **HTML5 e CSS3**. Cada pasta é um exercício independente, focado em construir componentes do zero, entender como as propriedades CSS funcionam e ganhar autonomia para resolver problemas de layout.
 
-## 📚 Exercícios desenvolvidos
+## 📚 Exercícios
 
-Os exercícios estão organizados em pastas independentes, facilitando a navegação e a manutenção dos arquivos.
-
-| Nº | Exercício | Objetivo |
+| Nº | Exercício | Foco |
 |---|---|---|
-| 01 | [Card de Produto](./01-card-produto/) | Construção de um componente para apresentação de produtos. |
-| 02 | [Barra de Navegação](./02-barra-navegacao/) | Desenvolvimento de um menu de navegação com HTML e CSS. |
-| 03 | [Formulário de Contato](./03-formulario-contato/) | Criação de um formulário com campos de entrada e estilização personalizada. |
+| 01 | [Card de Produto](./01-card-produto/) | Box Model, tipografia e estilização de componente |
+| 02 | [Barra de Navegação](./02-barra-navegacao/) | Semântica de navegação e Flexbox |
+| 03 | [Formulário de Contato](./03-formulario-contato/) | Campos, rótulos e estilização de formulário |
 
-### 01: Card de Produto
+### 01 · Card de Produto
+Componente para apresentar um produto com imagem, textos e botão.
+- Estrutura do componente com HTML5
+- Box Model: dimensionamento, espaçamentos e alinhamento
+- Cores, fontes e estilização de imagem e botão
 
-Desenvolvimento de um componente visual para apresentar informações de um produto, trabalhando a organização do conteúdo e a aplicação de estilos.
+### 02 · Barra de Navegação
+Menu de navegação com links distribuídos na interface.
+- Elementos semânticos de navegação (`nav`, listas de links)
+- `display: flex`, `align-items`, `justify-content` e `gap`
+- Estilização de estados interativos dos links
 
-**Conceitos praticados:**
+### 03 · Formulário de Contato
+Formulário com campos de entrada estilizados.
+- Estrutura com `form`, `label` e `input`
+- Associação de rótulos aos campos
+- Estilização e espaçamento dos campos
+- Configuração do comportamento de envio
 
-- Estruturação de componentes com HTML5.
-- Estilização de textos, imagens e botões.
-- Aplicação de cores, fontes e espaçamentos.
-- Dimensionamento e alinhamento dos elementos.
-- Utilização do Box Model.
+## 🛠️ Tecnologias
 
-### 02: Barra de Navegação
+- **HTML5** e **CSS3** (Flexbox e Box Model)
+- **Git e GitHub:** versionamento
+- **GitHub Pages:** publicação dos exercícios
 
-Construção de uma barra de navegação para praticar a estruturação de menus e a distribuição de elementos na interface.
-
-**Conceitos praticados:**
-
-- Utilização de elementos semânticos de navegação.
-- Organização de links.
-- Aplicação de `display: flex`.
-- Alinhamento com `align-items` e `justify-content`.
-- Controle de espaçamentos com `gap`.
-- Estilização de elementos interativos.
-
-### 03: Formulário de Contato
-
-Desenvolvimento de um formulário para praticar a criação de campos de entrada e a organização de informações.
-
-**Conceitos praticados:**
-
-- Estruturação de formulários com `form`.
-- Utilização de `label`, `input` e outros campos.
-- Associação de rótulos aos elementos.
-- Estilização dos campos de entrada.
-- Organização e espaçamento dos elementos.
-- Configuração do comportamento de envio.
-
-## 🛠️ Tecnologias utilizadas
-
-- **HTML5:** estruturação semântica dos componentes.
-- **CSS3:** estilização, posicionamento e organização visual.
-- **Flexbox:** alinhamento e distribuição dos elementos.
-- **Git:** controle de versão.
-- **GitHub:** hospedagem e organização do repositório.
-- **GitHub Pages:** publicação dos exercícios.
-
-## 🎯 Objetivos de aprendizagem
-
-Este repositório tem como propósito desenvolver habilidades fundamentais para a construção de interfaces web.
-
-Entre os principais objetivos estão:
-
-- Aprimorar a escrita e a interpretação de HTML e CSS.
-- Desenvolver autonomia na construção de componentes.
-- Compreender o funcionamento das propriedades CSS.
-- Praticar a organização semântica do HTML.
-- Melhorar o domínio de Flexbox e do Box Model.
-- Desenvolver layouts organizados e adaptáveis.
-- Identificar e corrigir problemas de estruturação e estilização.
-- Aplicar boas práticas de organização e manutenção do código.
-
-## 📂 Estrutura do repositório
+## 📂 Estrutura
 
 ```text
 css-drills/
@@ -89,59 +51,31 @@ css-drills/
 └── README.md
 ```
 
-Cada pasta corresponde a um exercício independente, contendo os arquivos necessários para sua execução.
+## 💻 Como executar
 
-## 💻 Como executar localmente
-
-Os exercícios utilizam HTML e CSS, sem necessidade de instalação de dependências.
-
-**1. Clone o repositório:**
+Não há dependências. Clone o repositório e abra o exercício desejado:
 
 ```bash
 git clone https://github.com/lpwesley/css-drills.git
+cd css-drills/01-card-produto
 ```
 
-**2. Acesse a pasta do projeto:**
+Abra o arquivo HTML no navegador ou use a extensão **Live Server** no VS Code.
 
-```bash
-cd css-drills
-```
+## 🚀 Próximos desafios
 
-**3. Escolha o exercício desejado:**
+O repositório cresce conforme a mentoria avança. Próximos temas previstos:
 
-```bash
-cd 01-card-produto
-```
-
-**4. Execute o exercício:**
-
-Abra o arquivo HTML principal no navegador ou utilize a extensão **Live Server** no Visual Studio Code.
-
-## 🚀 Evolução do projeto
-
-Este repositório será atualizado conforme novos desafios forem desenvolvidos durante os estudos e a mentoria.
-
-Os próximos exercícios poderão abordar:
-
-- Flexbox avançado.
-- CSS Grid.
-- Media Queries.
-- Responsividade.
-- Componentes reutilizáveis.
-- Construção de layouts mais complexos.
-
-A proposta é evoluir progressivamente, partindo de componentes simples até estruturas mais completas.
-
-O foco não está apenas em reproduzir interfaces, mas em compreender o funcionamento do código e desenvolver autonomia para criar soluções próprias.
+- [ ] Flexbox avançado
+- [ ] CSS Grid
+- [ ] Media Queries e responsividade
+- [ ] Componentes reutilizáveis
+- [ ] Layouts mais complexos
 
 ## 🎓 Créditos
 
-Exercícios desenvolvidos durante meus estudos de Desenvolvimento Front-end e como parte das atividades propostas na **mentoria Tips Code**, utilizando conteúdos de diferentes plataformas de ensino.
-
-As implementações fazem parte da minha jornada de aprendizado e evolução na programação.
+Desafios propostos pela **mentoria Tips Code**, com o mentor Alisson. As soluções foram desenvolvidas por mim.
 
 ---
 
-Desenvolvido por **Wesley Lauwer**.
-
-[GitHub](https://github.com/lpwesley)
+Desenvolvido por **Wesley Lauwer** · [GitHub](https://github.com/lpwesley)
